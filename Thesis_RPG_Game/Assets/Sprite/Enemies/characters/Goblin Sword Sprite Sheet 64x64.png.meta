@@ -1,0 +1,1724 @@
+fileFormatVersion: 2
+guid: a8edd6da5995239418fafae0c4a53085
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 654
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19da89a7f3de73438a4b02ae392452c
+      internalID: -2737743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 654
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3794fb9a196be7d4ba8b9b8e49e68836
+      internalID: 1103047029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 654
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e747b12491bd458a11a438840f956
+      internalID: 2113462144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 654
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70121d22fb1376348862ce5f913d0962
+      internalID: 1527326709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 654
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958907e239f0f8649a7864b0c5b79878
+      internalID: -722974697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 654
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a069e935de1b548996f32530d70620
+      internalID: 2062704550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 590
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024691238ab1ce94fad34dab7b13c646
+      internalID: -394992084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 590
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf907421f8858674ea776c11a7244bc0
+      internalID: -1038437297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 590
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc10e0aca637a54098f3b44c0bbb8db
+      internalID: -1604888627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 590
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77edaff694e9877468347ffab151478f
+      internalID: -774765385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 590
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b632765566ec2048b2a8fd8ac5954ea
+      internalID: -79640015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 590
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c5b60e40c373b4c8116b2bbcdda01f
+      internalID: 520869873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 526
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6705c5f9eac314a8cc1bae283d2fec
+      internalID: 679942107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 526
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99533b1195bad2d4db9b85c89ef1f661
+      internalID: -1755055372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 526
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9497d36fe0d168640949a62d9463db2b
+      internalID: -1460113686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 526
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e481d76acbef074bbd15fddd4d79be7
+      internalID: -441622892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 526
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78f487cb6f0dee46beec4523e68d4b5
+      internalID: -1102188247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 526
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cdb883b27fd604bafcce16b0544aa7
+      internalID: 364675708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 462
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f87d2315a2d99945bf627a561b86cba
+      internalID: -1137950834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 461
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd2985d9b161354db49fcd7f94ff681
+      internalID: -222649527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 462
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c1f9465a5b6944980e648e1888ba58
+      internalID: 587351898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_21
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 462
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7378157d3fe3b478a3c1b48675deef
+      internalID: 1117540776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 462
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf739d25a2b8b5049a93c29bda829817
+      internalID: 1119849589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 462
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9bb0de39d2d494fb9451c7b5f549c6
+      internalID: -2142247243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 398
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e6bb0efbf26a498b04e053caf143f
+      internalID: -609357915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 398
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155699247ec604a4fb3f1748bc56fc3b
+      internalID: -1136010398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 398
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3a4a25017ea0440abf75e5d7938fc4
+      internalID: -837118499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 398
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4323d268834acbf48a69119c5a1d92de
+      internalID: 580872145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 398
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1508e84c68c1ca94da781849eb7ab994
+      internalID: -2058999180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 398
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f1e6d5ce52e0c4d88e69429b29c001
+      internalID: 1664233879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 334
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cebbfb26ac9f949b0b9c8df000e65f
+      internalID: -1136663760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 334
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5888b36a90f9f774bacce9c7e525e3e4
+      internalID: -1403027719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_32
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 334
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02516e97f21fe09428558242de6d1c08
+      internalID: -1279998176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_33
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 334
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2022ed3d61fa67341a1e453fa5acba3b
+      internalID: 1788845507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_34
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 334
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f62dc75c53593f439ddd7d3e585862a
+      internalID: -1776909295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_35
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 334
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5241fafcdcb794ab4b75a7de17c5bc
+      internalID: -1536811627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 270
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f98692588e13045b464d6e0a3f4917
+      internalID: -2144651968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85163e9e62f494499d5cd3fdfdf29e0
+      internalID: 1722619664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_38
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 258
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5025d11759327f8429987079e30fde9b
+      internalID: -374235936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_39
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 261
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2596e17954ee53143b7e6af693f3376c
+      internalID: -1639892119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_40
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 262
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82791ec6fea874243958b98f03d93faf
+      internalID: 662262200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_41
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 270
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd00d1b1b42153c419dfd2da1eed2d29
+      internalID: -791214988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_42
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 206
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda8aa18313726c40a272a45d437bcc8
+      internalID: 174359639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 206
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acc25204fd51384ab77fea13ecb528e
+      internalID: 302892735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_44
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 198
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb946ef6ddb15840accb859ec8cae61
+      internalID: 906054411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_45
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 206
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77df9de7f507b9d4ea89bca033f3671d
+      internalID: -1833217455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_46
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 206
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7281f7df4fb1776499116403d56cac64
+      internalID: -1435357489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_47
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 206
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664f158708c18634d8b5a6cb09030412
+      internalID: 598181263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 142
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b590fa5c208e1424c80c08f1cfccaec9
+      internalID: 1528260493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_49
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 142
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6364d0be17802aa4d8e6acb60c5ade29
+      internalID: 882495990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_50
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 142
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f9a2c2bd324124d8b00977ebc09edf
+      internalID: -1368137703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 142
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363df4308972b784a91ff7bd69f4d4b3
+      internalID: -1725146653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_52
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 142
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e507bea5a0034e937ed2dabee3098
+      internalID: 331140665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 142
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf208ba7426d66a4f9e03b0ddbde3273
+      internalID: -1052207018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_54
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 78
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f419269a5c911b745b161684252bb2f4
+      internalID: -648237011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_55
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 78
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f937681de68e61342a72d11360209ce9
+      internalID: -490833607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 78
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8d4d08b88c3f145b78bba95f69bcc6
+      internalID: -1216681178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_57
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 78
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01f15a7fe021a24e8f3d31ab0ca8ba3
+      internalID: -498590066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_58
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0307213e62f8f449c425d3a661584d
+      internalID: -269029741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_59
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 78
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba82df95e4679b84a856e64bb4d9cd03
+      internalID: -842688656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_60
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc8e033580c2fb4aa7589881f49fee9
+      internalID: 346996341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_61
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 24
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc4014ab1f390942b570d8914cbbfba
+      internalID: 1037535480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_62
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 22
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf88ae9bc51cdc4093290d707d23857
+      internalID: 553233123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_63
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b892eb4f2fae87147bea508fa3a251fe
+      internalID: -1132462676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_64
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0add3f8b0239fd439b56b450558d51f
+      internalID: -455812526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_65
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce572587c5ceb9643860bff45398c9f3
+      internalID: 1255619058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_66
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 29
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10ba2f0843cc904ba920f2e24fb6202
+      internalID: -1656574543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 18
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa28332af307dc14ba84aa2373dea100
+      internalID: -1877818132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_68
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 34
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93440cd9637b9fb4daebcd8321c8dc93
+      internalID: -1032668864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_69
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b9c4883d526bc4e806ee7f10cc4416
+      internalID: -2075914438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_70
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 29
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee33f3d2719a1ed4e9fffb1f18881de2
+      internalID: -654331146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin Sword Sprite Sheet 64x64_71
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 18
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab84dcaa23a8714bb83c9dc5c20938d
+      internalID: 2119053345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin Sword Sprite Sheet 64x64_0: -2737743
+      Goblin Sword Sprite Sheet 64x64_1: 1103047029
+      Goblin Sword Sprite Sheet 64x64_10: -79640015
+      Goblin Sword Sprite Sheet 64x64_11: 520869873
+      Goblin Sword Sprite Sheet 64x64_12: 679942107
+      Goblin Sword Sprite Sheet 64x64_13: -1755055372
+      Goblin Sword Sprite Sheet 64x64_14: -1460113686
+      Goblin Sword Sprite Sheet 64x64_15: -441622892
+      Goblin Sword Sprite Sheet 64x64_16: -1102188247
+      Goblin Sword Sprite Sheet 64x64_17: 364675708
+      Goblin Sword Sprite Sheet 64x64_18: -1137950834
+      Goblin Sword Sprite Sheet 64x64_19: -222649527
+      Goblin Sword Sprite Sheet 64x64_2: 2113462144
+      Goblin Sword Sprite Sheet 64x64_20: 587351898
+      Goblin Sword Sprite Sheet 64x64_21: 1117540776
+      Goblin Sword Sprite Sheet 64x64_22: 1119849589
+      Goblin Sword Sprite Sheet 64x64_23: -2142247243
+      Goblin Sword Sprite Sheet 64x64_24: -609357915
+      Goblin Sword Sprite Sheet 64x64_25: -1136010398
+      Goblin Sword Sprite Sheet 64x64_26: -837118499
+      Goblin Sword Sprite Sheet 64x64_27: 580872145
+      Goblin Sword Sprite Sheet 64x64_28: -2058999180
+      Goblin Sword Sprite Sheet 64x64_29: 1664233879
+      Goblin Sword Sprite Sheet 64x64_3: 1527326709
+      Goblin Sword Sprite Sheet 64x64_30: -1136663760
+      Goblin Sword Sprite Sheet 64x64_31: -1403027719
+      Goblin Sword Sprite Sheet 64x64_32: -1279998176
+      Goblin Sword Sprite Sheet 64x64_33: 1788845507
+      Goblin Sword Sprite Sheet 64x64_34: -1776909295
+      Goblin Sword Sprite Sheet 64x64_35: -1536811627
+      Goblin Sword Sprite Sheet 64x64_36: -2144651968
+      Goblin Sword Sprite Sheet 64x64_37: 1722619664
+      Goblin Sword Sprite Sheet 64x64_38: -374235936
+      Goblin Sword Sprite Sheet 64x64_39: -1639892119
+      Goblin Sword Sprite Sheet 64x64_4: -722974697
+      Goblin Sword Sprite Sheet 64x64_40: 662262200
+      Goblin Sword Sprite Sheet 64x64_41: -791214988
+      Goblin Sword Sprite Sheet 64x64_42: 174359639
+      Goblin Sword Sprite Sheet 64x64_43: 302892735
+      Goblin Sword Sprite Sheet 64x64_44: 906054411
+      Goblin Sword Sprite Sheet 64x64_45: -1833217455
+      Goblin Sword Sprite Sheet 64x64_46: -1435357489
+      Goblin Sword Sprite Sheet 64x64_47: 598181263
+      Goblin Sword Sprite Sheet 64x64_48: 1528260493
+      Goblin Sword Sprite Sheet 64x64_49: 882495990
+      Goblin Sword Sprite Sheet 64x64_5: 2062704550
+      Goblin Sword Sprite Sheet 64x64_50: -1368137703
+      Goblin Sword Sprite Sheet 64x64_51: -1725146653
+      Goblin Sword Sprite Sheet 64x64_52: 331140665
+      Goblin Sword Sprite Sheet 64x64_53: -1052207018
+      Goblin Sword Sprite Sheet 64x64_54: -648237011
+      Goblin Sword Sprite Sheet 64x64_55: -490833607
+      Goblin Sword Sprite Sheet 64x64_56: -1216681178
+      Goblin Sword Sprite Sheet 64x64_57: -498590066
+      Goblin Sword Sprite Sheet 64x64_58: -269029741
+      Goblin Sword Sprite Sheet 64x64_59: -842688656
+      Goblin Sword Sprite Sheet 64x64_6: -394992084
+      Goblin Sword Sprite Sheet 64x64_60: 346996341
+      Goblin Sword Sprite Sheet 64x64_61: 1037535480
+      Goblin Sword Sprite Sheet 64x64_62: 553233123
+      Goblin Sword Sprite Sheet 64x64_63: -1132462676
+      Goblin Sword Sprite Sheet 64x64_64: -455812526
+      Goblin Sword Sprite Sheet 64x64_65: 1255619058
+      Goblin Sword Sprite Sheet 64x64_66: -1656574543
+      Goblin Sword Sprite Sheet 64x64_67: -1877818132
+      Goblin Sword Sprite Sheet 64x64_68: -1032668864
+      Goblin Sword Sprite Sheet 64x64_69: -2075914438
+      Goblin Sword Sprite Sheet 64x64_7: -1038437297
+      Goblin Sword Sprite Sheet 64x64_70: -654331146
+      Goblin Sword Sprite Sheet 64x64_71: 2119053345
+      Goblin Sword Sprite Sheet 64x64_8: -1604888627
+      Goblin Sword Sprite Sheet 64x64_9: -774765385
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
