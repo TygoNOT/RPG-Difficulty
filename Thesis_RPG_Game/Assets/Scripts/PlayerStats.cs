@@ -17,7 +17,17 @@ public class PlayerStats : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        healthText.text = "HP: " + currentHealth + " / " + maxHealth;
+        
+        if (GameSession.Instance != null)
+        {
+            GameSession.Instance.LoadPlayer(
+                this,
+                GetComponent<Player_Lvl>(),
+                GetComponent<Player_Combat>()
+            );
+        }
+
+        UpdateHealthUI();
     }
 
     public void ChangeHealth(int amount)
@@ -31,6 +41,22 @@ public class PlayerStats : MonoBehaviour
             Die();
         }
     }
+
+    public void IncreaseMaxHealth(int amount)
+    {
+        maxHealth += amount;
+        currentHealth += amount;
+        if (currentHealth > maxHealth)
+            currentHealth = maxHealth;
+
+        UpdateHealthUI();
+    }
+
+    public void UpdateHealthUI()
+    {
+        healthText.text = "HP: " + currentHealth + " / " + maxHealth;
+    }
+
 
     private void Die()
     {
@@ -51,4 +77,5 @@ public class PlayerStats : MonoBehaviour
 
         GameLogic.Instance.PlayerDied();
     }
+
 }

@@ -44,4 +44,10 @@ public class Player_Combat : MonoBehaviour
     {
         anim.SetBool("isAttacking", false);
     }
+
+    public void IncreaseDamage(int amount)
+    {
+        damage += amount;
+    }
+
 }

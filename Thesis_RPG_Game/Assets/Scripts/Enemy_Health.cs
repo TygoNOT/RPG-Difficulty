@@ -7,6 +7,7 @@ public class Enemy_Health : MonoBehaviour
     [Header("Attribute")]
     public int currentHealth;
     public int maxHealth;
+    public int xpReward = 25;
     public float animationDeadTime;
     private bool isDead;
     private Animator anim;
@@ -37,7 +38,8 @@ public class Enemy_Health : MonoBehaviour
         GetComponent<Enemy_Combat>().enabled = false;
         anim.SetBool("isDead", true);
         col.enabled = false;
-
+        
+        GameLogic.Instance.GivePlayerXP(xpReward);
         GameLogic.Instance.EnemyKilled();
 
         Destroy(gameObject, animationDeadTime); 

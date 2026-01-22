@@ -1,5 +1,7 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameLogic : MonoBehaviour
 {
@@ -7,11 +9,14 @@ public class GameLogic : MonoBehaviour
 
     [Header("Level Objects")]
     public GameObject objectToDisable;   
-    public GameObject objectToEnable;    
+    public GameObject objectToEnable;
 
     [Header("UI")]
+    [SerializeField] private Slider xpSlider;
+    [SerializeField] private TMP_Text levelText;
+    [SerializeField] private TMP_Text xpText;
     public GameObject deathMenu;
-
+    private Player_Lvl playerLevel;
     private int enemiesAlive;
 
     private void Awake()
@@ -29,6 +34,10 @@ public class GameLogic : MonoBehaviour
 
         objectToEnable.SetActive(false);
         deathMenu.SetActive(false);
+        playerLevel = FindObjectOfType<Player_Lvl>();
+        playerLevel.OnXPChanged += UpdateXPUI;
+        UpdateXPUI(playerLevel.CurrentXP, playerLevel.XPToNextLevel, playerLevel.Level);
+
     }
     public void EnemyKilled()
     {
@@ -50,6 +59,12 @@ public class GameLogic : MonoBehaviour
     public void RestartLevel()
     {
         Time.timeScale = 1f;
+
+        if (GameSession.Instance != null)
+        {
+            GameSession.Instance.RestoreCheckpoint();
+        }
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -62,5 +77,18 @@ public class GameLogic : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void GivePlayerXP(int amount)
+    {
+        playerLevel.AddXP(amount);
+    }
+
+    private void UpdateXPUI(int xp, int xpToNext, int lvl)
+    {
+        xpSlider.maxValue = xpToNext;
+        xpSlider.value = xp;
+        levelText.text = "LVL " + lvl;
+        xpText.text = $"{xp} / {xpToNext}";
     }
 }
