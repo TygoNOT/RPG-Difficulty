@@ -15,6 +15,19 @@ public class Enemy_Combat : MonoBehaviour
     public Transform attackRight; public float weaponRange;
     public LayerMask playerLayer;
 
+    private void Awake()
+    {
+        if (movement == null)
+            movement = GetComponent<Enemy_Movment>();
+
+        float dmgMultiplier = 1f;
+
+        if (GameSession.Instance != null)
+            dmgMultiplier = GameSession.Instance.GetEnemyDamageMultiplier();
+
+        damage = Mathf.RoundToInt(damage * dmgMultiplier);
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -42,11 +55,7 @@ public class Enemy_Combat : MonoBehaviour
         Debug.Log("Attack direction: " + movement.LastMoveDir);
     }
 
-    private void Awake()
-    {
-        if (movement == null)
-            movement = GetComponent<Enemy_Movment>();
-    }
+
 
     private Transform GetAttackPoint()
     {

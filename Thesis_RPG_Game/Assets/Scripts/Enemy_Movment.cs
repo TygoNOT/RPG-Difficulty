@@ -137,7 +137,8 @@ public class Enemy_Movment : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    /*
+     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -146,6 +147,7 @@ public class Enemy_Movment : MonoBehaviour
             rb.velocity = Vector2.zero;
         }
     }
+    */
 
     public void EndAttack()
     {

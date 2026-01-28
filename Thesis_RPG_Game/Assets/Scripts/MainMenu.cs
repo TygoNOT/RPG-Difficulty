@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class MainMenu : MonoBehaviour
 
     [Header("First Level Index")]
     public int firstLevelIndex = 1; 
-
+    public int mainMenuIndex = 0;
     private void Start()
     {
         mainPanel.SetActive(true);
@@ -45,4 +46,11 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void BackToMenuButton()
+    {
+        SceneManager.LoadScene(mainMenuIndex);
+    }
+
 }
+

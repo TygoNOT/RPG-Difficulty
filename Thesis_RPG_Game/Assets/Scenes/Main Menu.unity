@@ -2389,6 +2389,7 @@ MonoBehaviour:
   mainPanel: {fileID: 1257666884}
   difficultyPanel: {fileID: 981330773}
   firstLevelIndex: 1
+  mainMenuIndex: 0
 --- !u!1 &1951208999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2420,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   difficulty: 0
+  baseMaxHealth: 20
+  baseDamage: 3
+  baseXPToNext: 100
+  firstLevelIndex: 1
+  easyEnemyHp: 0.8
+  easyEnemyDamage: 0.8
+  easyXP: 1.2
+  hardEnemyHp: 2
+  hardEnemyDamage: 2
+  hardXP: 0.8
+  adaptiveEnemyHp: 1.2
+  adaptiveEnemyDamage: 1.2
+  adaptiveXP: 1
+  adaptiveFactor: 0
+  adaptiveStep: 0.1
+  adaptiveMin: -0.2
+  adaptiveMax: 2
+  deathsThisLevel: 0
+  hpLostThisLevel: 0
   level: 1
   currentXP: 0
   xpToNextLevel: 100

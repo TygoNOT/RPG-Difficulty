@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -33,8 +34,26 @@ public class PlayerStats : MonoBehaviour
     public void ChangeHealth(int amount)
     {
         if (isDead) return;
+
+        if (GameSession.Instance != null && amount > 0)
+        {
+            GameSession.Instance.hpLostThisLevel += amount;
+        }
+
+        if (GameSession.Instance != null)
+        {
+            GameSession.Instance.CheckMidLevelAdaptation();
+        }
+
         currentHealth -= amount;
-        healthText.text = "HP: " + currentHealth + " / " + maxHealth;
+        if (currentHealth < 0)
+        {
+            healthText.text = "HP: " + 0 + " / " + maxHealth;
+        }
+        else
+        {
+            healthText.text = "HP: " + currentHealth + " / " + maxHealth;
+        }
 
         if (currentHealth <= 0)
         {
@@ -78,4 +97,33 @@ public class PlayerStats : MonoBehaviour
         GameLogic.Instance.PlayerDied();
     }
 
+    public void RestoreHealthByDifficulty(Difficulty diff, float adaptiveFactor = 1f)
+    {
+        if (diff == Difficulty.Easy)
+        {
+            currentHealth = maxHealth;
+            UpdateHealthUI();
+            return;
+        }
+
+        float percent = (float)currentHealth / Mathf.Max(1, maxHealth);
+
+        int newHealth = Mathf.RoundToInt(maxHealth * percent);
+
+        float bonusPercent = Random.Range(0.1f, 0.2f);
+
+        if (diff == Difficulty.Adaptive)
+        {
+            bonusPercent *= (2f - adaptiveFactor);
+        }
+
+        int bonus = Mathf.RoundToInt(maxHealth * bonusPercent);
+
+        currentHealth = newHealth + bonus;
+
+        if (currentHealth > maxHealth)
+            currentHealth = maxHealth;
+
+        UpdateHealthUI();
+    }
 }

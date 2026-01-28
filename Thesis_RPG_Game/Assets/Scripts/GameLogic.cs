@@ -45,13 +45,50 @@ public class GameLogic : MonoBehaviour
 
         if (enemiesAlive <= 0)
         {
+            if (GameSession.Instance != null)
+            {
+                PlayerStats stats = FindObjectOfType<PlayerStats>();
+
+                if (stats != null)
+                {
+                    if (GameSession.Instance.difficulty == Difficulty.Easy)
+                    {
+                        stats.RestoreHealthByDifficulty(Difficulty.Easy);
+                    }
+                }
+            }
+
             objectToDisable.SetActive(false);
             objectToEnable.SetActive(true);
+
+            LevelExit exit = objectToEnable.GetComponent<LevelExit>();
+            if (exit != null)
+            {
+                exit.ActivateExit();
+            }
         }
     }
 
     public void PlayerDied()
     {
+        if (GameSession.Instance.difficulty == Difficulty.Adaptive)
+        {
+            PlayerStats stats = FindObjectOfType<PlayerStats>();
+
+            if (stats != null)
+            {
+                float factor = GameSession.Instance.adaptiveFactor;
+
+                stats.RestoreHealthByDifficulty(Difficulty.Adaptive, factor);
+
+                GameSession.Instance.SavePlayer(
+                    stats,
+                    FindObjectOfType<Player_Lvl>(),
+                    FindObjectOfType<Player_Combat>()
+                );
+            }
+        }
+
         Time.timeScale = 0f;
         deathMenu.SetActive(true);
     }
@@ -59,9 +96,16 @@ public class GameLogic : MonoBehaviour
     public void RestartLevel()
     {
         Time.timeScale = 1f;
-
+       
         if (GameSession.Instance != null)
         {
+            if (GameSession.Instance.difficulty == Difficulty.Hard)
+            {
+                GameSession.Instance.ResetToBase();
+                SceneManager.LoadScene(GameSession.Instance.firstLevelIndex);
+                return;
+            }
+
             GameSession.Instance.RestoreCheckpoint();
         }
 

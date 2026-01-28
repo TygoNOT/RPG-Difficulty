@@ -41,6 +41,7 @@ public class Player_Lvl : MonoBehaviour
 
         OnXPChanged?.Invoke(currentXP, xpToNextLevel, level);
     }
+
     private void LevelUp()
     {
         level++;
@@ -49,6 +50,14 @@ public class Player_Lvl : MonoBehaviour
 
         playerStats.IncreaseMaxHealth(maxHpPerLevel);
         playerCombat.IncreaseDamage(damagePerLevel);
+
+        if (GameSession.Instance != null)
+        {
+            playerStats.RestoreHealthByDifficulty(
+                GameSession.Instance.difficulty,
+                GameSession.Instance.adaptiveFactor
+            );
+        }
 
         Debug.Log($"LEVEL UP! New level: {level}");
 

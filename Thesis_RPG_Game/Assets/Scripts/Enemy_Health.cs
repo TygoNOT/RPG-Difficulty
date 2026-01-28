@@ -15,7 +15,14 @@ public class Enemy_Health : MonoBehaviour
     
     private void Start()
     {
+        float hpMultiplier = 1f;
+
+        if (GameSession.Instance != null)
+            hpMultiplier = GameSession.Instance.GetEnemyHealthMultiplier();
+
+        maxHealth = Mathf.RoundToInt(maxHealth * hpMultiplier);
         currentHealth = maxHealth;
+
         anim = GetComponent<Animator>();
         col = GetComponent<Collider2D>();
     }
@@ -38,8 +45,16 @@ public class Enemy_Health : MonoBehaviour
         GetComponent<Enemy_Combat>().enabled = false;
         anim.SetBool("isDead", true);
         col.enabled = false;
-        
-        GameLogic.Instance.GivePlayerXP(xpReward);
+
+        int finalXP = xpReward;
+
+        if (GameSession.Instance != null)
+        {
+            float xpMultiplier = GameSession.Instance.GetXPMultiplier();
+            finalXP = Mathf.RoundToInt(xpReward * xpMultiplier);
+        }
+
+        GameLogic.Instance.GivePlayerXP(finalXP);
         GameLogic.Instance.EnemyKilled();
 
         Destroy(gameObject, animationDeadTime); 
